@@ -9,4 +9,14 @@ $font-base: 'Open Sans', sans-serif;
 html {
     font-family: $font-base;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
 //VARIABLES
