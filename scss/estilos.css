@@ -4,4 +4,93 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+.contenedor-nosotros-texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titulo-nosotros {
+  font-family: 'Volkhov', serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem;
+  text-align: center;
+  height: 2.875rem;
+  width: 30.625rem;
+  top: 3.25rem;
+  margin-bottom: 2.8125rem;
+}
+
+.texto-nosotros {
+  height: 149px;
+  width: 490px;
+  left: 0px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.contenedor-nosotros-imagen {
+  padding: 0;
+}
+
+.img-nosotros {
+  height: 34.75rem;
+  width: 100%;
+}
+
+.contenedor-iconos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.icono {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.texto-icono {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.0625rem;
+  text-align: center;
+  margin-top: 1.1875rem;
+}
 /*# sourceMappingURL=estilos.css.map */

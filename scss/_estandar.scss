@@ -1,6 +1,12 @@
+$font-base: 'Open Sans', sans-serif;
+
+//RESETEO
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html {
+    font-family: $font-base;
 }
 //VARIABLES
