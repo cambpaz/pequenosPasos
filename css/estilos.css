@@ -17,6 +17,9 @@ a:visited {
 a:hover {
   color: black; }
 
+.container-fluid {
+  overflow: hidden; }
+
 .contenedor-nosotros-texto {
   display: flex;
   flex-direction: column;
