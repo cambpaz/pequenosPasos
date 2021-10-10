@@ -357,7 +357,8 @@ footer {
       height: 80%;
       display: flex;
       flex-direction: column;
-      justify-content: space-between; }
+      justify-content: space-between;
+      align-items: center; }
       #quiero-ser-parte #ser-parte-opciones .opcion .descripcion-opcion {
         height: 5rem;
         font-family: 'Open Sans';
@@ -367,7 +368,14 @@ footer {
         line-height: 2.0625rem;
         text-align: center;
         text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.8); }
+      #quiero-ser-parte #ser-parte-opciones .opcion .ser-parte-boton {
+        width: 50%;
+        background-color: #61CE70;
+        padding: 1.0625rem 2.375rem;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+        border-radius: 2rem; }
       #quiero-ser-parte #ser-parte-opciones .opcion .button {
+        width: 100%;
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: bold;
@@ -375,10 +383,6 @@ footer {
         line-height: 1.375rem;
         text-align: center;
         text-transform: uppercase;
-        background-color: #61CE70;
-        padding: 1.0625rem 2.375rem;
-        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
-        border-radius: 2rem;
         color: white; }
         #quiero-ser-parte #ser-parte-opciones .opcion .button:hover {
           text-decoration: none; }
@@ -394,3 +398,154 @@ footer {
     background-color: unset;
     height: 6.25rem;
     width: 6.25rem; }
+
+/* Smartphones (portrait and landscape) ----------- */
+/* iPhone 4 ----------- */
+@media only screen and (max-width: 319px) {
+  #navegador #brand {
+    margin-right: 10px;
+    font-size: 1rem; }
+  #navegador #brand-toggle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  #navegador ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+    #navegador ul .nav-item {
+      margin-top: 10px; }
+    #navegador ul #nav-donar-button {
+      display: none; }
+  #encabezado br, #quiero-ser-parte br {
+    display: none; }
+  #quiero-ser-parte {
+    height: 1088px;
+    justify-content: space-evenly; }
+    #quiero-ser-parte #ser-parte-opciones {
+      flex-direction: column; }
+      #quiero-ser-parte #ser-parte-opciones .opcion {
+        width: 80%;
+        justify-content: space-around; }
+        #quiero-ser-parte #ser-parte-opciones .opcion .ser-parte-boton {
+          width: 100%; } }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #navegador #brand {
+    margin-right: 10px; }
+  #navegador #brand-toggle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  #navegador ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+    #navegador ul .nav-item {
+      margin-top: 10px; }
+    #navegador ul #nav-donar-button {
+      display: none; }
+  #encabezado br, #quiero-ser-parte br {
+    display: none; }
+  #quiero-ser-parte {
+    height: 1088px;
+    justify-content: space-evenly; }
+    #quiero-ser-parte #ser-parte-opciones {
+      flex-direction: column; }
+      #quiero-ser-parte #ser-parte-opciones .opcion {
+        width: 80%;
+        justify-content: space-around; }
+        #quiero-ser-parte #ser-parte-opciones .opcion .ser-parte-boton {
+          width: 100%; } }
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  #navegador #brand {
+    margin-right: 10px; }
+  #navegador #brand-toggle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  #navegador ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+    #navegador ul .nav-item {
+      margin-top: 10px; }
+    #navegador ul #nav-donar-button {
+      display: none; }
+  #encabezado br, #quiero-ser-parte br {
+    display: none; }
+  #quiero-ser-parte {
+    height: 1088px;
+    justify-content: space-evenly; }
+    #quiero-ser-parte #ser-parte-opciones {
+      flex-direction: column; }
+      #quiero-ser-parte #ser-parte-opciones .opcion {
+        width: 80%;
+        justify-content: space-around; }
+        #quiero-ser-parte #ser-parte-opciones .opcion .ser-parte-boton {
+          width: 100%; } }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #navegador #brand {
+    margin-right: 10px; }
+  #navegador #brand-toggle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  #navegador ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+    #navegador ul .nav-item {
+      margin-top: 10px; }
+    #navegador ul #nav-donar-button {
+      display: none; }
+  #encabezado br, #quiero-ser-parte br {
+    display: none; }
+  #quiero-ser-parte {
+    height: 1088px;
+    justify-content: space-evenly; }
+    #quiero-ser-parte #ser-parte-opciones {
+      flex-direction: column; }
+      #quiero-ser-parte #ser-parte-opciones .opcion {
+        width: 80%;
+        justify-content: space-around; }
+        #quiero-ser-parte #ser-parte-opciones .opcion .ser-parte-boton {
+          width: 100%; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  #navegador #brand {
+    margin-right: 5rem; }
+  #navegador ul .nav-link {
+    font-size: 0.6rem; } }
+
+@media only screen and (min-width: 1025px) and (max-width: 1121px) {
+  #navegador ul .nav-item {
+    font-size: 0.90rem; } }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */ }
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ }
