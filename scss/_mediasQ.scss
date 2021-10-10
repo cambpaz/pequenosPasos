@@ -2,23 +2,250 @@
 
 /* iPhone 4 ----------- */
 @media only screen and (max-width:319px) {
-    /* Styles */
+
+  #navegador{
+    #brand{
+      margin-right: 10px;
+      font-size: 1rem;
+    }
+
+    #brand-toggle{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    ul{
+      flex-direction: column;
+      align-items: flex-start;
+
+      margin-top: 5px;
+      margin-bottom: 5px;
+      .nav-item{
+        margin-top: 10px;
+      }
+
+      #nav-donar-button{
+        display: none;
+      }
+    }
+  }
+
+  #encabezado,#quiero-ser-parte{
+    br{
+      display: none;
+    }
+  }
+
+  #quiero-ser-parte{
+    height: 1088px;
+    justify-content: space-evenly;
+
+    #ser-parte-opciones{
+      flex-direction: column;
+      .opcion{
+
+        .ser-parte-boton{
+          width: 100%;
+        }
+        width: 80%;
+        justify-content: space-around;
+      }
+    }
+  }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-width : 320px) and (max-width : 480px) {
-  /* Styles */
+  #navegador{
+
+    #brand{
+      margin-right: 10px;
+    }
+
+    #brand-toggle{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    ul{
+      flex-direction: column;
+      align-items: flex-start;
+
+      margin-top: 5px;
+      margin-bottom: 5px;
+      .nav-item{
+        margin-top: 10px;
+      }
+
+      #nav-donar-button{
+        display: none;
+      }
+    }
+  }
+
+  #encabezado,#quiero-ser-parte{
+    br{
+      display: none;
+    }
+  }
+
+  #quiero-ser-parte{
+    height: 1088px;
+    justify-content: space-evenly;
+
+    #ser-parte-opciones{
+      flex-direction: column;
+      .opcion{
+
+        .ser-parte-boton{
+          width: 100%;
+        }
+        width: 80%;
+        justify-content: space-around;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width : 481px) and (max-width : 767px) {
-/* Styles */
+  #navegador{
+
+    #brand{
+      margin-right: 10px;
+    }
+
+    #brand-toggle{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    ul{
+      flex-direction: column;
+      align-items: flex-start;
+
+      margin-top: 5px;
+      margin-bottom: 5px;
+      .nav-item{
+        margin-top: 10px;
+      }
+
+      #nav-donar-button{
+        display: none;
+      }
+    }
+  }
+
+  #encabezado,#quiero-ser-parte{
+    br{
+      display: none;
+    }
+  }
+
+  #quiero-ser-parte{
+    height: 1088px;
+    justify-content: space-evenly;
+
+    #ser-parte-opciones{
+      flex-direction: column;
+      .opcion{
+
+        .ser-parte-boton{
+          width: 100%;
+        }
+        width: 80%;
+        justify-content: space-around;
+      }
+    }
+  }
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
-  /* Styles */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+  #navegador{
+
+    #brand{
+      margin-right: 10px;
+    }
+
+    #brand-toggle{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    ul{
+      flex-direction: column;
+      align-items: flex-start;
+
+      margin-top: 5px;
+      margin-bottom: 5px;
+      .nav-item{
+        margin-top: 10px;
+      }
+
+      #nav-donar-button{
+        display: none;
+      }
+    }
+  }
+
+  #encabezado,#quiero-ser-parte{
+    br{
+      display: none;
+    }
+  }
+
+  #quiero-ser-parte{
+    height: 1088px;
+    justify-content: space-evenly;
+
+    #ser-parte-opciones{
+      flex-direction: column;
+      .opcion{
+        .ser-parte-boton{
+          width: 100%;
+        }
+        width: 80%;
+        justify-content: space-around;
+      }
+    }
+  }
 }
+
+@media only screen and (min-width : 992px) and (max-width : 1024px) {
+  #navegador{
+    #brand{
+      margin-right: 5rem;
+    }
+    ul{
+      .nav-link{
+        font-size: 0.6rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1121px) {
+
+  #navegador{
+    ul{
+      .nav-item{
+        font-size: 0.90rem;
+      }
+    }
+  }
+}
+
+
 /* iPads (landscape) ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
   /* Styles */
