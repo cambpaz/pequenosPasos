@@ -24,7 +24,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin: 2rem 0rem; }
 
 .titulo-nosotros {
   font-family: 'Volkhov', serif;
@@ -38,20 +39,18 @@ a:hover {
   margin-bottom: 2.8125rem; }
 
 .texto-nosotros {
-  height: 149px;
-  width: 490px;
-  left: 0px;
-  font-size: 18px;
+  width: 30.625rem;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px;
-  text-align: justify; }
+  line-height: 1.5625rem;
+  text-align: justify;
+  max-width: 90%; }
 
 .contenedor-nosotros-imagen {
   padding: 0; }
 
 .img-nosotros {
-  height: 34.75rem;
   width: 100%; }
 
 .contenedor-iconos {
@@ -79,7 +78,6 @@ a:hover {
   padding: 0; }
 
 .imagen-mision {
-  height: 34.625rem;
   width: 100%; }
 
 .contenedor-mision-texto {
@@ -97,7 +95,7 @@ a:hover {
   text-align: center; }
 
 .mision-texto {
-  height: 11.1875rem;
+  max-width: 90%;
   width: 30.625rem;
   font-size: 1.125rem;
   font-style: normal;
@@ -112,7 +110,8 @@ a:hover {
   flex-direction: column; }
 
 .contenedor-parrafos {
-  display: flex; }
+  display: flex;
+  flex-direction: row; }
 
 .titulo-queHacemos {
   font-family: 'Volkhov', serif;
@@ -124,15 +123,14 @@ a:hover {
   text-align: center; }
 
 .parrafo-queHacemos {
-  height: 75px;
-  width: 592.5px;
+  width: 37.03125rem;
   margin-top: 3.25rem;
   font-size: 1.125rem;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5625rem;
   text-align: justify;
-  padding-right: 3rem; }
+  padding-right: 3rem;
+  max-width: 90%; }
 
 footer {
   background: #C4C4C4; }
@@ -151,6 +149,11 @@ footer {
   display: flex;
   flex-direction: column; }
 
+.contenedor-padre {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row; }
+
 .contenedor-contacto > * {
   font-size: 24px;
   font-style: normal;
@@ -158,6 +161,12 @@ footer {
   line-height: 33px;
   letter-spacing: 0em;
   text-align: left; }
+
+.contenedor-mapa {
+  width: 40%; }
+
+.mapa {
+  width: 100%; }
 
 .subtitulo-contacto {
   margin-top: 1rem;
@@ -419,7 +428,8 @@ footer {
       margin-top: 10px; }
     #navegador ul #nav-donar-button {
       display: none; }
-  #encabezado br, #quiero-ser-parte br {
+  #encabezado br,
+  #quiero-ser-parte br {
     display: none; }
   #quiero-ser-parte {
     height: 1088px;
@@ -450,7 +460,8 @@ footer {
       margin-top: 10px; }
     #navegador ul #nav-donar-button {
       display: none; }
-  #encabezado br, #quiero-ser-parte br {
+  #encabezado br,
+  #quiero-ser-parte br {
     display: none; }
   #quiero-ser-parte {
     height: 1088px;
@@ -461,7 +472,35 @@ footer {
         width: 80%;
         justify-content: space-around; }
         #quiero-ser-parte #ser-parte-opciones .opcion .ser-parte-boton {
-          width: 100%; } }
+          width: 100%; }
+  .contenedor-iconos {
+    flex-direction: column;
+    margin-top: 2rem; }
+  .contenedor-mision-texto {
+    margin: 2rem 0rem; }
+  .mision-texto {
+    margin-top: 2rem; }
+  .contenedor-mision {
+    display: flex;
+    flex-direction: column-reverse; }
+  .contenedor-parrafos {
+    flex-direction: column;
+    max-width: 90%; }
+  .parrafo-queHacemos {
+    padding: 0;
+    margin-left: .5rem;
+    margin-top: 1rem; }
+  .contacto-texto {
+    padding: 0;
+    padding-top: 1rem; }
+  .contenedor-contacto {
+    margin: 0; }
+  .contenedor-contacto a {
+    max-width: 90%;
+    font-size: 19px; }
+  .contenedor-mapa {
+    width: 80%;
+    margin-top: 2rem; } }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   #navegador #brand {
@@ -480,7 +519,8 @@ footer {
       margin-top: 10px; }
     #navegador ul #nav-donar-button {
       display: none; }
-  #encabezado br, #quiero-ser-parte br {
+  #encabezado br,
+  #quiero-ser-parte br {
     display: none; }
   #quiero-ser-parte {
     height: 1088px;
@@ -511,7 +551,8 @@ footer {
       margin-top: 10px; }
     #navegador ul #nav-donar-button {
       display: none; }
-  #encabezado br, #quiero-ser-parte br {
+  #encabezado br,
+  #quiero-ser-parte br {
     display: none; }
   #quiero-ser-parte {
     height: 1088px;
