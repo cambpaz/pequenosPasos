@@ -422,7 +422,6 @@ footer {
     height: 6.25rem;
     width: 6.25rem; }
 
-/* Smartphones (portrait and landscape) ----------- */
 /* iPhone 4 ----------- */
 @media only screen and (max-width: 319px) {
   #navegador #brand-mobile {
