@@ -15,9 +15,6 @@
         text-align: center;
     }
 
-
-
-
     .contenedor-grid-talleres {
         display: flex;
         flex-direction: row;
@@ -37,12 +34,12 @@
 
             figure{
                 text-align: center;
-                img{
-                    // width: 399px;
-                    // height: 265px;
-                    width: 15.625rem;
-                    height: 15.625rem;
-                }
+                // img{
+                //     // width: 399px;
+                //     // height: 265px;
+                //     // width: 15.625rem;
+                //     // height: 15.625rem;
+                // }
 
                 figcaption{
                     font-family: 'Open Sans';
@@ -54,6 +51,23 @@
                     text-align: center;
                     margin-top: 0.625rem;
                 }
+            }
+        }
+    }
+
+    #carousel-talleres {
+        display: none;
+        margin: 2.5rem;
+        width: 95%;
+
+        .carousel-caption {
+            
+            h3 {
+                background-color: rgba(0, 0, 0, 0.9);
+                font-size: 1.5rem;
+                color: white;
+                -webkit-text-stroke: black 0.5px;
+                line-height: 2rem;
             }
         }
     }
