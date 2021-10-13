@@ -1,90 +1,12 @@
+/* Smartphones (portrait and landscape) ----------- */
+
 /* iPhone 4 ----------- */
 @media only screen and (max-width:319px) {
-    #navegador {
-      #brand-mobile {
-        margin-right: 10px;
-        display: unset;
-        width: 60%;
-        margin-left: 0;
-      }
-  
-      #brand-desktop{
-        display: none;
-      }
-  
-      #brand-toggle {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-      }
-  
-      ul {
-        flex-direction: column;
-        align-items: flex-start;
-  
-        margin-top: 5px;
-        margin-bottom: 5px;
-  
-        .nav-item {
-          margin-top: 10px;
-        }
-  
-        #nav-donar-button {
-          display: none;
-        }
-      }
-    }
-  
-    #encabezado,
-    #quiero-ser-parte {
-      br {
-        display: none;
-      }
-    }
-  
-    #quiero-ser-parte {
-      height: 1088px;
-      justify-content: center;
-  
-      #ser-parte-opciones {
-        flex-direction: column;
-  
-        .opcion {
-          .ser-parte-boton {
-            width: 100%;
-          }
-  
-          width: 80%;
-          justify-content: space-around;
-        }
-      }
-    }
-  
-    #talleres{
-      .contenedor-grid-talleres{
-        display: none;
-      }
-      #carousel-talleres{
-        display: unset;
-      }
-    }
-}
-
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
 
   #navegador {
-    #brand-mobile {
+    #brand {
       margin-right: 10px;
-      display: unset;
-      width: 60%;
-      margin-left: 0;
-    }
-
-    #brand-desktop{
-      display: none;
+      font-size: 1rem;
     }
 
     #brand-toggle {
@@ -120,7 +42,68 @@
 
   #quiero-ser-parte {
     height: 1088px;
-    justify-content:center;
+    justify-content: space-evenly;
+
+    #ser-parte-opciones {
+      flex-direction: column;
+
+      .opcion {
+
+        .ser-parte-boton {
+          width: 100%;
+        }
+
+        width: 80%;
+        justify-content: space-around;
+      }
+    }
+  }
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+  #navegador {
+
+    #brand {
+      margin-right: 10px;
+    }
+
+    #brand-toggle {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+
+      margin-top: 5px;
+      margin-bottom: 5px;
+
+      .nav-item {
+        margin-top: 10px;
+      }
+
+      #nav-donar-button {
+        display: none;
+      }
+    }
+  }
+
+  #encabezado,
+  #quiero-ser-parte {
+    br {
+      display: none;
+    }
+  }
+
+  #quiero-ser-parte {
+    height: 1088px;
+    justify-content: space-evenly;
 
     #ser-parte-opciones {
       flex-direction: column;
@@ -179,29 +162,14 @@
     width: 80%;
     margin-top: 2rem;
 }
-
-  #talleres{
-    .contenedor-grid-talleres{
-      display: none;
-    }
-    #carousel-talleres{
-      display: unset;
-    }
-  }
 }
 
 
 @media only screen and (min-width : 481px) and (max-width : 767px) {
   #navegador {
-    #brand-mobile {
-      margin-right: 10px;
-      display: unset;
-      width: 50%;
-      margin-left: 0;
-    }
 
-    #brand-desktop{
-      display: none;
+    #brand {
+      margin-right: 10px;
     }
 
     #brand-toggle {
@@ -251,15 +219,6 @@
         width: 80%;
         justify-content: space-around;
       }
-    }
-  }
-
-  #talleres{
-    .contenedor-grid-talleres{
-      display: none;
-    }
-    #carousel-talleres{
-      display: unset;
     }
   }
 }
@@ -268,17 +227,11 @@
 @media only screen and (min-width : 768px) and (max-width : 991px) {
 
   #navegador {
-    #brand-mobile {
+
+    #brand {
       margin-right: 10px;
-      display: unset;
-      width: 40%;
-      margin-left: 0;
     }
 
-    #brand-desktop{
-      display: none;
-    }
-  
     #brand-toggle {
       width: 100%;
       display: flex;
@@ -327,55 +280,17 @@
       }
     }
   }
-  
-  #talleres{
-    .contenedor-grid-talleres{
-
-      figure{
-        img{
-          width: 95%;
-        }
-
-        figcaption{
-          font-size: 0.9rem !important;
-          line-height: unset !important;
-        }
-      }
-    }
-  }
 }
 
 @media only screen and (min-width : 992px) and (max-width : 1024px) {
   #navegador {
-    #brand-mobile{
-      display: unset;
-      // width: 10px;
-      margin-right: 10px;
-      img{
-        width: 80%;
-      }
-    }    
-
-    #brand-desktop{
-      display: none;
-    }
-
-    #brand-toggle {
-      width: 30%;
-
+    #brand {
+      margin-right: 5rem;
     }
 
     ul {
       .nav-link {
-        font-size: 0.5rem;
-      }
-    }
-  }
-
-  #talleres{
-    .contenedor-grid-talleres{
-      img{
-        width: 95%;
+        font-size: 0.6rem;
       }
     }
   }
@@ -384,33 +299,9 @@
 @media only screen and (min-width : 1025px) and (max-width : 1121px) {
 
   #navegador {
-    #brand-mobile{
-      display: unset;
-      img{
-        width: 90%;
-      }
-    }    
-
-    #brand-desktop{
-      display: none;
-    }
-
-    #brand-toggle {
-      margin-right: 30px;
-      width: 25%;
-    }
-
     ul {
-      .nav-link {
-        font-size: 0.7rem;
-      }
-    }
-  }
-
-  #talleres{
-    .contenedor-grid-talleres{
-      img{
-        width: 95%;
+      .nav-item {
+        font-size: 0.90rem;
       }
     }
   }
@@ -418,25 +309,21 @@
 }
 
 
-@media only screen and (min-width : 1122px) and (max-width : 1223px) {
-  #talleres{
-    .contenedor-grid-talleres{
-      img{
-        width: 95%;
-      }
-    }
-  }
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+  /* Styles */
+
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) and (max-width: 1823px) {
-  #talleres{
-    .contenedor-grid-talleres{
-      img{
-        width: 95%;
-      }
-    }
-  }
+@media only screen and (min-width : 1224px) {
+  /* Styles */
+
 }
 
 /* Large screens ----------- */

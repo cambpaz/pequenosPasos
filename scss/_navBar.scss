@@ -7,34 +7,17 @@
     flex-direction: row;
     align-items: center;
 
-    padding-top: 12px;
-    padding-bottom: 12px;
-
-    .navbar-brand{
+    #brand{
         color: white;
         margin: 0 0.625rem;
-        // height: 2.875rem;
+        font-weight: bold;
+        font-size: 1.25rem;
+        height: 2.875rem;
+        line-height: 1.4375rem;
         display: flex;
         align-items: center;
         margin-right: 6.25rem;
         padding: 0;
-    }
-    
-    #brand-desktop,#brand-mobile{
-        img{
-            width: 100%;
-        }
-    }
-
-    #brand-mobile{
-        img{
-            width: 100%;
-        }
-        display: none;
-    }
-
-    #brand-toggle{
-        width: 30%;
     }
 
     li{
