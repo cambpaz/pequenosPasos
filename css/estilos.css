@@ -194,18 +194,24 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center; }
-  #navegador #brand {
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px; }
+  #navegador .navbar-brand {
     color: white;
     margin: 0 0.625rem;
-    font-weight: bold;
-    font-size: 1.25rem;
-    height: 2.875rem;
-    line-height: 1.4375rem;
     display: flex;
     align-items: center;
     margin-right: 6.25rem;
     padding: 0; }
+  #navegador #brand-desktop img, #navegador #brand-mobile img {
+    width: 100%; }
+  #navegador #brand-mobile {
+    display: none; }
+    #navegador #brand-mobile img {
+      width: 100%; }
+  #navegador #brand-toggle {
+    width: 30%; }
   #navegador li {
     padding: 0;
     margin: 0; }
@@ -307,9 +313,6 @@ footer {
     grid-template-rows: 1fr 1fr; }
     #talleres .contenedor-grid-talleres #grid-talleres figure {
       text-align: center; }
-      #talleres .contenedor-grid-talleres #grid-talleres figure img {
-        width: 15.625rem;
-        height: 15.625rem; }
       #talleres .contenedor-grid-talleres #grid-talleres figure figcaption {
         font-family: 'Open Sans';
         font-style: normal;
@@ -318,6 +321,17 @@ footer {
         line-height: 2rem;
         text-align: center;
         margin-top: 0.625rem; }
+
+#talleres #carousel-talleres {
+  display: none;
+  margin: 2.5rem;
+  width: 95%; }
+  #talleres #carousel-talleres .carousel-caption h3 {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 1.5rem;
+    color: white;
+    -webkit-text-stroke: black 0.5px;
+    line-height: 2rem; }
 
 #quiero-ser-parte {
   background-image: url(../assets/img/donarVoluntarios.jpg);
