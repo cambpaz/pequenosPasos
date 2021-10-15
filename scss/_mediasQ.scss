@@ -184,7 +184,26 @@
       display: unset;
     }
   }
+  #postInstagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .posts {
+    display: none;
+}
+.texto-ig {
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 41px;
+text-align: center;
 
+}
+  .contenedor-carousel-ig {
+    display: block;
+    margin: 3.9375rem 0;
+}
 }
 
 
