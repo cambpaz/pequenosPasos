@@ -318,7 +318,7 @@ footer {
 
 #encabezado-landing {
   background-color: #071426;
-  background-image: url(../assets/img/prueba.png);
+  background-image: url(../assets/img/encabezadolanding.jpg);
   height: 42rem;
   width: 100%;
   display: flex;
@@ -509,8 +509,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin: 2rem 0rem; }
+  align-items: center; }
   .contenedor-con-ayuda-texto h4 {
     font-family: 'Volkhov', serif;
     font-size: 2.5rem;
