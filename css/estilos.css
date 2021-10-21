@@ -205,8 +205,9 @@ footer {
   margin-top: 3.75rem;
   margin-bottom: 1.875rem;
   font-family: 'Volkhov', serif;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 400;
+  max-width: 90%;
   text-align: center; }
 
 .posts {
@@ -214,7 +215,8 @@ footer {
   width: 100%;
   justify-content: center;
   margin: .9375rem;
-  margin: 3.75rem; }
+  margin: 3.75rem;
+  flex-wrap: wrap; }
 
 .post-img {
   width: 329px;
@@ -540,6 +542,67 @@ footer {
     .contenedor-con-ayuda-texto .contenedor-con-ayuda-imagen .img-con-ayuda {
       width: 100%; }
 
+.contenedor-sumate {
+  display: flex;
+  flex-direction: row; }
+
+.titulo-texto-sumate {
+  font-family: 'Volkhov', serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  width: 486px; }
+
+.icono-sumate {
+  height: 92.14285278320312px;
+  width: 92.16917419433594px; }
+
+.contenedor-sumate-imagen {
+  padding: 0; }
+  .contenedor-sumate-imagen .img-con-ayuda {
+    width: 100%;
+    height: 100%; }
+
+.imagen-sumate {
+  height: 34.625rem;
+  width: 100%; }
+
+.sumate-texto {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  padding: 2.5rem; }
+
+.contenedor-iconos-landing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%; }
+
+.ser-parte-boton {
+  width: 50%;
+  background: #61CE70;
+  padding: 1.0625rem 2.375rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+  border-radius: 2rem;
+  margin-top: 1.5rem; }
+  .ser-parte-boton .button {
+    width: 100%;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white; }
+    .ser-parte-boton .button:hover {
+      text-decoration: none; }
+    .ser-parte-boton .button p {
+      text-align: center;
+      margin: 0;
+      color: white; }
+
 /* iPhone 4 ----------- */
 @media only screen and (max-width: 319px) {
   #navegador #brand-mobile {
@@ -579,7 +642,22 @@ footer {
   #talleres .contenedor-grid-talleres {
     display: none; }
   #talleres #carousel-talleres {
-    display: unset; } }
+    display: unset; }
+  #postInstagram {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .posts {
+    display: none; }
+  .texto-ig {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center; }
+  .contenedor-carousel-ig {
+    display: block;
+    margin: 3.9375rem 0; } }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -663,7 +741,19 @@ footer {
     text-align: center; }
   .contenedor-carousel-ig {
     display: block;
-    margin: 3.9375rem 0; } }
+    margin: 3.9375rem 0; }
+  .titulo-texto-sumate {
+    font-size: 2rem;
+    width: 21.4375rem; }
+  .contenedor-iconos-landing {
+    width: 100%; }
+  .icono-sumate {
+    height: 69px;
+    width: 69px; }
+  .texto-icono-landing {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center; } }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   #navegador #brand-mobile {
@@ -703,7 +793,22 @@ footer {
   #talleres .contenedor-grid-talleres {
     display: none; }
   #talleres #carousel-talleres {
-    display: unset; } }
+    display: unset; }
+  #postInstagram {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .posts {
+    display: none; }
+  .texto-ig {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center; }
+  .contenedor-carousel-ig {
+    display: block;
+    margin: 3.9375rem 0; } }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -745,7 +850,14 @@ footer {
     width: 95%; }
   #talleres .contenedor-grid-talleres figure figcaption {
     font-size: 0.9rem !important;
-    line-height: unset !important; } }
+    line-height: unset !important; }
+  .titulo-texto-sumate {
+    font-size: 1.8rem; }
+  .sumate-texto {
+    padding: 1.8rem; }
+  .icono-sumate {
+    width: 5rem;
+    height: 5rem; } }
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   #navegador #brand-mobile {
@@ -775,11 +887,20 @@ footer {
   #navegador ul .nav-link {
     font-size: 0.7rem; }
   #talleres .contenedor-grid-talleres img {
-    width: 95%; } }
+    width: 95%; }
+  .sumate-texto {
+    padding: 1.8rem;
+    font-size: .9375rem; }
+  .titulo-texto-sumate {
+    font-size: 1.8rem; } }
 
-@media only screen and (min-width: 1122px) and (max-width: 1223px) {
+@media only screen and (min-width: 1122px) and (max-width: 1423px) {
   #talleres .contenedor-grid-talleres img {
-    width: 95%; } }
+    width: 95%; }
+  .titulo-texto-sumate {
+    font-size: 1.8rem; }
+  .sumate-texto {
+    padding: 1.1rem; } }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) and (max-width: 1823px) {

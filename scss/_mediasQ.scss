@@ -8,7 +8,7 @@
       margin-left: 0;
     }
 
-    #brand-desktop{
+    #brand-desktop {
       display: none;
     }
 
@@ -61,14 +61,39 @@
     }
   }
 
-  #talleres{
-    .contenedor-grid-talleres{
+  #talleres {
+    .contenedor-grid-talleres {
       display: none;
     }
-    #carousel-talleres{
+
+    #carousel-talleres {
       display: unset;
     }
   }
+  #postInstagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .posts {
+    display: none;
+  }
+
+  .texto-ig {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+
+  }
+
+  .contenedor-carousel-ig {
+    display: block;
+    margin: 3.9375rem 0;
+  }
+
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -81,7 +106,7 @@
       margin-left: 0;
     }
 
-    #brand-desktop{
+    #brand-desktop {
       display: none;
     }
 
@@ -118,7 +143,7 @@
 
   #quiero-ser-parte {
     height: 1088px;
-    justify-content:center;
+    justify-content: center;
 
     #ser-parte-opciones {
       flex-direction: column;
@@ -127,6 +152,7 @@
         .ser-parte-boton {
           width: 100%;
         }
+
         width: 80%;
         justify-content: space-around;
       }
@@ -155,32 +181,38 @@
     flex-direction: column;
     max-width: 90%;
   }
+
   .parrafo-queHacemos {
     padding: 0;
     margin-left: .5rem;
     margin-top: 1rem;
   }
+
   .contacto-texto {
     padding: 0;
     padding-top: 1rem;
   }
+
   .contenedor-contacto {
     margin: 0;
   }
+
   .contenedor-contacto a {
     max-width: 90%;
     font-size: 19px;
   }
+
   .contenedor-mapa {
     width: 80%;
     margin-top: 2rem;
   }
 
-  #talleres{
-    .contenedor-grid-talleres{
+  #talleres {
+    .contenedor-grid-talleres {
       display: none;
     }
-    #carousel-talleres{
+
+    #carousel-talleres {
       display: unset;
     }
   }
@@ -189,21 +221,43 @@
     justify-content: center;
     align-items: center;
   }
+
   .posts {
     display: none;
-}
-.texto-ig {
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: 41px;
-text-align: center;
+  }
 
-}
+  .texto-ig {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+
+  }
+
   .contenedor-carousel-ig {
     display: block;
     margin: 3.9375rem 0;
-}
+  }
+
+
+  .titulo-texto-sumate {
+    font-size: 2rem;
+    width: 21.4375rem;
+  }
+  .contenedor-iconos-landing {
+    width: 100%;
+  }
+  .icono-sumate {
+    height: 69px;
+    width: 69px;
+  }
+
+  .texto-icono-landing {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+  }
 }
 
 
@@ -216,7 +270,7 @@ text-align: center;
       margin-left: 0;
     }
 
-    #brand-desktop{
+    #brand-desktop {
       display: none;
     }
 
@@ -270,14 +324,39 @@ text-align: center;
     }
   }
 
-  #talleres{
-    .contenedor-grid-talleres{
+  #talleres {
+    .contenedor-grid-talleres {
       display: none;
     }
-    #carousel-talleres{
+
+    #carousel-talleres {
       display: unset;
     }
   }
+  #postInstagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .posts {
+    display: none;
+  }
+
+  .texto-ig {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+
+  }
+
+  .contenedor-carousel-ig {
+    display: block;
+    margin: 3.9375rem 0;
+  }
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -291,10 +370,10 @@ text-align: center;
       margin-left: 0;
     }
 
-    #brand-desktop{
+    #brand-desktop {
       display: none;
     }
-  
+
     #brand-toggle {
       width: 100%;
       display: flex;
@@ -343,36 +422,47 @@ text-align: center;
       }
     }
   }
-  
-  #talleres{
-    .contenedor-grid-talleres{
 
-      figure{
-        img{
+  #talleres {
+    .contenedor-grid-talleres {
+
+      figure {
+        img {
           width: 95%;
         }
 
-        figcaption{
+        figcaption {
           font-size: 0.9rem !important;
           line-height: unset !important;
         }
       }
     }
   }
+  .titulo-texto-sumate {
+    font-size: 1.8rem;
+  }
+  .sumate-texto {
+    padding: 1.8rem;
+  }
+  .icono-sumate {
+    width: 5rem;
+    height: 5rem;
+  }
+
 }
 
 @media only screen and (min-width : 992px) and (max-width : 1024px) {
   #navegador {
-    #brand-mobile{
+    #brand-mobile {
       display: unset;
-      // width: 10px;
       margin-right: 10px;
-      img{
+
+      img {
         width: 80%;
       }
-    }    
+    }
 
-    #brand-desktop{
+    #brand-desktop {
       display: none;
     }
 
@@ -388,26 +478,28 @@ text-align: center;
     }
   }
 
-  #talleres{
-    .contenedor-grid-talleres{
-      img{
+  #talleres {
+    .contenedor-grid-talleres {
+      img {
         width: 95%;
       }
     }
   }
+
 }
 
 @media only screen and (min-width : 1025px) and (max-width : 1121px) {
 
   #navegador {
-    #brand-mobile{
+    #brand-mobile {
       display: unset;
-      img{
+
+      img {
         width: 90%;
       }
-    }    
+    }
 
-    #brand-desktop{
+    #brand-desktop {
       display: none;
     }
 
@@ -423,31 +515,44 @@ text-align: center;
     }
   }
 
-  #talleres{
-    .contenedor-grid-talleres{
-      img{
+  #talleres {
+    .contenedor-grid-talleres {
+      img {
         width: 95%;
       }
     }
   }
-
+  .sumate-texto {
+    padding: 1.8rem;
+    font-size: .9375rem;
+  }
+  .titulo-texto-sumate {
+    font-size: 1.8rem;
+  }
 }
 
-@media only screen and (min-width : 1122px) and (max-width : 1223px) {
-  #talleres{
-    .contenedor-grid-talleres{
-      img{
+@media only screen and (min-width : 1122px) and (max-width : 1423px) {
+  #talleres {
+    .contenedor-grid-talleres {
+      img {
         width: 95%;
       }
     }
   }
+  .titulo-texto-sumate {
+    font-size: 1.8rem;
+  }
+  .sumate-texto {
+    padding: 1.1rem;
+  }
+  
 }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) and (max-width: 1823px) {
-  #talleres{
-    .contenedor-grid-talleres{
-      img{
+  #talleres {
+    .contenedor-grid-talleres {
+      img {
         width: 95%;
       }
     }
