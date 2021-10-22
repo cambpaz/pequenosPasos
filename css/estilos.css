@@ -538,14 +538,16 @@ footer {
       font-size: 1.125rem;
       font-style: normal;
       font-weight: bold;
-      line-height: 1.5625rem; }
+      line-height: 1.5625rem;
+      margin-bottom: 1rem; }
       .contenedor-con-ayuda-texto ul #list-item::before {
         content: '✓';
         margin-right: 4px; }
-  .contenedor-con-ayuda-texto .contenedor-con-ayuda-imagen {
-    padding: 0; }
-    .contenedor-con-ayuda-texto .contenedor-con-ayuda-imagen .img-con-ayuda {
-      width: 100%; }
+
+.contenedor-con-ayuda-imagen {
+  padding: 0; }
+  .contenedor-con-ayuda-imagen .img-con-ayuda {
+    width: 100%; }
 
 .contenedor-sumate {
   display: flex;
@@ -611,7 +613,7 @@ footer {
 /* iPhone 4 ----------- */
 @media only screen and (max-width: 319px) {
   #navegador #brand-mobile {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     display: unset;
     width: 60%;
     margin-left: 0; }
@@ -625,17 +627,30 @@ footer {
   #navegador ul {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 5px;
-    margin-bottom: 5px; }
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem; }
     #navegador ul .nav-item {
-      margin-top: 10px; }
+      margin-top: 0.625rem; }
     #navegador ul #nav-donar-button {
       display: none; }
   #encabezado-index br,
   #quiero-ser-parte br {
     display: none; }
+  #encabezado-landing #agradecimiento {
+    font-size: 1.75rem; }
+  #con-tu-ayuda {
+    margin: 2rem 0; }
+    #con-tu-ayuda .contenedor-con-ayuda-texto h4 {
+      font-size: 1.5rem;
+      width: 95%;
+      text-align: left; }
+    #con-tu-ayuda .contenedor-con-ayuda-texto #list-item {
+      width: unset;
+      font-size: unset; }
+    #con-tu-ayuda .contenedor-con-ayuda-imagen {
+      display: none; }
   #quiero-ser-parte {
-    height: 1088px;
+    height: 68rem;
     justify-content: center; }
     #quiero-ser-parte #ser-parte-opciones {
       flex-direction: column; }
@@ -655,10 +670,10 @@ footer {
   .posts {
     display: none; }
   .texto-ig {
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 41px;
+    line-height: 2.5625rem;
     text-align: center; }
   .contenedor-carousel-ig {
     display: block;
@@ -669,7 +684,7 @@ footer {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   #navegador #brand-mobile {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     display: unset;
     width: 60%;
     margin-left: 0; }
@@ -683,17 +698,29 @@ footer {
   #navegador ul {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 5px;
-    margin-bottom: 5px; }
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem; }
     #navegador ul .nav-item {
-      margin-top: 10px; }
+      margin-top: 0.625rem; }
     #navegador ul #nav-donar-button {
       display: none; }
   #encabezado-index br,
   #quiero-ser-parte br {
     display: none; }
+  #encabezado-landing #agradecimiento {
+    font-size: 1.75rem; }
+  #con-tu-ayuda {
+    margin: 2rem 0; }
+    #con-tu-ayuda .contenedor-con-ayuda-texto h4 {
+      font-size: 2rem;
+      width: 95%;
+      text-align: left; }
+    #con-tu-ayuda .contenedor-con-ayuda-texto #list-item {
+      width: unset; }
+    #con-tu-ayuda .contenedor-con-ayuda-imagen {
+      display: none; }
   #quiero-ser-parte {
-    height: 1088px;
+    height: 68rem;
     justify-content: center; }
     #quiero-ser-parte #ser-parte-opciones {
       flex-direction: column; }
@@ -726,7 +753,7 @@ footer {
     margin: 0; }
   .contenedor-contacto a {
     max-width: 90%;
-    font-size: 19px; }
+    font-size: 1.1875rem; }
   .contenedor-mapa {
     width: 80%;
     margin-top: 2rem; }
@@ -741,10 +768,10 @@ footer {
   .posts {
     display: none; }
   .texto-ig {
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 41px;
+    line-height: 2.5625rem;
     text-align: center; }
   .contenedor-carousel-ig {
     display: block;
@@ -755,16 +782,16 @@ footer {
   .contenedor-iconos-landing {
     width: 100%; }
   .icono-sumate {
-    height: 69px;
-    width: 69px; }
+    height: 4.3125rem;
+    width: 4.3125rem; }
   .texto-icono-landing {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 700;
     text-align: center; } }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   #navegador #brand-mobile {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     display: unset;
     width: 50%;
     margin-left: 0; }
@@ -778,17 +805,26 @@ footer {
   #navegador ul {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 5px;
-    margin-bottom: 5px; }
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem; }
     #navegador ul .nav-item {
-      margin-top: 10px; }
+      margin-top: 0.625rem; }
     #navegador ul #nav-donar-button {
       display: none; }
   #encabezado-index br,
   #quiero-ser-parte br {
     display: none; }
+  #con-tu-ayuda {
+    margin: 2rem 0; }
+    #con-tu-ayuda .contenedor-con-ayuda-texto h4 {
+      width: 95%;
+      text-align: left; }
+    #con-tu-ayuda .contenedor-con-ayuda-texto #list-item {
+      width: unset; }
+    #con-tu-ayuda .contenedor-con-ayuda-imagen {
+      display: none; }
   #quiero-ser-parte {
-    height: 1088px;
+    height: 68rem;
     justify-content: space-evenly; }
     #quiero-ser-parte #ser-parte-opciones {
       flex-direction: column; }
@@ -808,10 +844,10 @@ footer {
   .posts {
     display: none; }
   .texto-ig {
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 41px;
+    line-height: 2.5625rem;
     text-align: center; }
   .contenedor-carousel-ig {
     display: block;
@@ -841,7 +877,7 @@ footer {
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #navegador #brand-mobile {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     display: unset;
     width: 40%;
     margin-left: 0; }
@@ -855,17 +891,24 @@ footer {
   #navegador ul {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 5px;
-    margin-bottom: 5px; }
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem; }
     #navegador ul .nav-item {
-      margin-top: 10px; }
+      margin-top: 0.625rem; }
     #navegador ul #nav-donar-button {
       display: none; }
   #encabezado-index br,
   #quiero-ser-parte br {
     display: none; }
+  #con-tu-ayuda .contenedor-con-ayuda-texto h4 {
+    font-size: 1.8rem;
+    width: unset; }
+  #con-tu-ayuda .contenedor-con-ayuda-texto #list-item {
+    width: unset;
+    margin-bottom: 0.5rem;
+    font-size: unset; }
   #quiero-ser-parte {
-    height: 1088px;
+    height: 68rem;
     justify-content: space-evenly; }
     #quiero-ser-parte #ser-parte-opciones {
       flex-direction: column; }
@@ -912,7 +955,7 @@ footer {
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   #navegador #brand-mobile {
     display: unset;
-    margin-right: 10px; }
+    margin-right: 0.625rem; }
     #navegador #brand-mobile img {
       width: 80%; }
   #navegador #brand-desktop {
@@ -948,7 +991,7 @@ footer {
   #navegador #brand-desktop {
     display: none; }
   #navegador #brand-toggle {
-    margin-right: 30px;
+    margin-right: 1.875rem;
     width: 25%; }
   #navegador ul .nav-link {
     font-size: 0.7rem; }
