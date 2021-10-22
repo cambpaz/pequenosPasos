@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // margin: 2rem 0rem;
 
     h4{
         font-family: 'Volkhov', serif;
@@ -12,7 +11,6 @@
         font-weight: 700;
         line-height: 3.25rem;
         text-align: center;
-        // height: 2.875rem;
         width: 36.875rem;
         margin-bottom: 2.8125rem;
     }
@@ -35,7 +33,6 @@
             margin-bottom: 1rem;
 
             &::before{
-                // content: '✓';
                 margin-right: 4px;
             }
         }

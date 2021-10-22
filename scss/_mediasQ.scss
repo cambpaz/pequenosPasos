@@ -590,6 +590,11 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+
+
+      img{
+        width: 75%;
+      }
     }
 
     ul {
@@ -809,16 +814,18 @@
 
     #brand-toggle {
       margin-right: 1.875rem;
-      width: 25%;
+      width: 20%;
     }
 
     ul {
-      .nav-link {
-        font-size: 0.7rem;
+      li{
+        #nav-link {
+          font-size: 0.7rem;
+        }
       }
     }
   }
-
+  
   #talleres {
     .contenedor-grid-talleres {
       img {
@@ -849,7 +856,41 @@
   }
 }
 
-@media only screen and (min-width : 1122px) and (max-width : 1423px) {
+@media only screen and (min-width : 1122px) and (max-width : 1137px) {
+
+  #navegador{
+    ul{
+      li{
+          #nav-link{
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+
+  #talleres {
+    .contenedor-grid-talleres {
+      img {
+        width: 95%;
+      }
+    }
+  }
+
+  .titulo-texto-sumate {
+    font-size: 1.8rem;
+  }
+
+  .sumate-texto {
+    padding: 1.1rem;
+  }
+
+  .texto-icono {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media only screen and (min-width : 1138px) and (max-width : 1423px) {
   #talleres {
     .contenedor-grid-talleres {
       img {
@@ -886,6 +927,13 @@
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
 
+  #navegador{
+    ul{
+      #nav-link{
+        font-size: 1rem;
+      }
+    }
+  }
   /* Styles */
   .texto-nosotros {
     font-size: 1.4rem;
