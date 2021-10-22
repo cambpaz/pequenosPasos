@@ -35,6 +35,9 @@
       }
     }
   }
+  .contenedor-sumate {
+    flex-direction: column-reverse;
+  }
 
   #encabezado-index,
   #quiero-ser-parte {
@@ -43,23 +46,23 @@
     }
   }
 
-  #encabezado-landing{
-    #agradecimiento{
+  #encabezado-landing {
+    #agradecimiento {
       font-size: 1.75rem;
     }
   }
 
-  #con-tu-ayuda{
+  #con-tu-ayuda {
     margin: 2rem 0;
 
-    .contenedor-con-ayuda-texto{
-      h4{
+    .contenedor-con-ayuda-texto {
+      h4 {
         font-size: 1.5rem;
         width: 95%;
         text-align: left;
       }
-  
-      #list-item{
+
+      #list-item {
         width: unset;
         font-size: unset;
       }
@@ -93,6 +96,7 @@
       display: unset;
     }
   }
+
   #postInstagram {
     display: flex;
     justify-content: center;
@@ -116,34 +120,45 @@
     display: block;
     margin: 3.9375rem 0;
   }
+
   .contenedor-mision {
     flex-direction: column-reverse;
   }
+
   .contenedor-iconos-landing {
     flex-direction: column;
   }
+
   .contacto-texto {
     padding: 0;
     font-size: 2.5rem;
   }
+
   .contenedor-padre {
     justify-content: start;
   }
+
   .contenedor-contacto {
     width: 70%;
   }
-  .contenedor-contacto > * {
+
+  .contenedor-contacto>* {
     font-size: unset;
     margin: 0;
   }
+
   .contenedor-mapa {
     width: 70%;
     margin-top: 2rem;
     margin-left: .5rem;
   }
+
   .contenedor-mapa p {
     font-size: 1rem;
 
+  }
+  .contenedor-sumate {
+    flex-direction: column-reverse;
   }
 }
 
@@ -192,23 +207,23 @@
     }
   }
 
-  #encabezado-landing{
-    #agradecimiento{
+  #encabezado-landing {
+    #agradecimiento {
       font-size: 1.75rem;
     }
   }
 
-  #con-tu-ayuda{
+  #con-tu-ayuda {
     margin: 2rem 0;
 
-    .contenedor-con-ayuda-texto{
-      h4{
+    .contenedor-con-ayuda-texto {
+      h4 {
         font-size: 2rem;
         width: 95%;
         text-align: left;
       }
-  
-      #list-item{
+
+      #list-item {
         width: unset;
       }
     }
@@ -231,22 +246,27 @@
       }
     }
   }
+
   .contenedor-padre {
     justify-content: start;
   }
+
   .contenedor-contacto {
     width: 70%;
   }
-  .contenedor-contacto > * {
+
+  .contenedor-contacto>* {
     font-size: unset;
     margin: 0;
     margin-left: .8rem;
   }
+
   .contenedor-mapa {
     width: 70%;
     margin-top: 2rem;
     margin-left: .5rem;
   }
+
   .contenedor-mapa p {
     font-size: 1rem;
 
@@ -339,9 +359,11 @@
     font-size: 2rem;
     width: 21.4375rem;
   }
+
   .contenedor-iconos-landing {
     width: 100%;
   }
+
   .icono-sumate {
     height: 4.3125rem;
     width: 4.3125rem;
@@ -351,6 +373,9 @@
     font-size: 0.75rem;
     font-weight: 700;
     text-align: center;
+  }
+  .contenedor-sumate {
+    flex-direction: column-reverse;
   }
 }
 
@@ -399,16 +424,16 @@
     }
   }
 
-  #con-tu-ayuda{
+  #con-tu-ayuda {
     margin: 2rem 0;
 
-    .contenedor-con-ayuda-texto{
-      h4{
+    .contenedor-con-ayuda-texto {
+      h4 {
         width: 95%;
         text-align: left;
       }
-  
-      #list-item{
+
+      #list-item {
         width: unset;
       }
     }
@@ -442,6 +467,7 @@
       display: unset;
     }
   }
+
   #postInstagram {
     display: flex;
     justify-content: center;
@@ -465,42 +491,59 @@
     display: block;
     margin: 3.9375rem 0;
   }
+
   .contenedor-mision {
     flex-direction: column-reverse;
   }
+
   .titulo-texto {
     margin-top: 1rem;
   }
+
   .mision-texto {
     margin: 3rem 1rem;
   }
+
   .contenedor-parrafos {
     flex-direction: column;
   }
+
   .parrafo-queHacemos {
     width: fit-content;
     margin-left: 2rem;
     margin-top: 1rem;
     padding: 1rem;
   }
+
   .icono img {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
   }
+  .contenedor-sumate {
+    flex-direction: column-reverse;
+  }
+  .titulo-texto-sumate {
+    font-size: 1.875rem;
+    margin-top: 2rem;
+  }
+
   .texto-icono {
     font-size: 1rem;
   }
+
   .contenedor-mapa {
     width: 60%;
     margin-top: 2.5rem;
-}
-.contenedor-contacto {
-  width: 60%;
-}
-.contenedor-contacto > * {
-  font-size: 1.2rem;
-  margin: 0;
-}
+  }
+
+  .contenedor-contacto {
+    width: 60%;
+  }
+
+  .contenedor-contacto>* {
+    font-size: 1.2rem;
+    margin: 0;
+  }
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -549,14 +592,14 @@
     }
   }
 
-  #con-tu-ayuda{
-    .contenedor-con-ayuda-texto{
-      h4{
+  #con-tu-ayuda {
+    .contenedor-con-ayuda-texto {
+      h4 {
         font-size: 1.8rem;
         width: unset;
       }
 
-      #list-item{
+      #list-item {
         width: unset;
         margin-bottom: 0.5rem;
         font-size: unset;
@@ -581,16 +624,20 @@
       }
     }
   }
+
   .contenedor-mision {
     flex-direction: column-reverse;
   }
+
   .titulo-texto {
     margin-top: 2rem;
   }
+
   .mision-texto {
     margin: 3.5rem;
     width: 25rem;
   }
+
   #talleres {
     .contenedor-grid-talleres {
 
@@ -606,36 +653,44 @@
       }
     }
   }
+
   .texto-icono {
     font-size: 1.5rem;
   }
+
   .icono img {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
   }
+
   .parrafo-queHacemos {
     width: fit-content;
     max-width: 80%;
     margin-left: 1rem;
     margin-top: 1rem;
   }
+
   .titulo-texto-sumate {
     font-size: 1.8rem;
   }
+
   .sumate-texto {
     padding: 1.8rem;
   }
+
   .icono-sumate {
     width: 5rem;
     height: 5rem;
   }
+
   .contenedor-mapa {
     width: 60%;
     margin-top: 2.5rem;
-}
-.contenedor-contacto {
-  width: 60%;
-}
+  }
+
+  .contenedor-contacto {
+    width: 60%;
+  }
 
 }
 
@@ -673,33 +728,44 @@
       }
     }
   }
-  
+
   .mision-texto {
     margin-top: .5rem;
   }
+
   .img-nosotros {
     height: 100%;
   }
+
   .contenedor-iconos {
     margin: 0;
   }
+
   .titulo-nosotros {
     margin-bottom: .9rem;
   }
+
   .icono img {
     height: 3.75rem;
     width: 3.75rem;
   }
+
   .texto-icono {
     font-size: 1rem;
   }
+
   .contenedor-mapa {
     width: 60%;
     margin-top: 2.5rem;
-}
-.contenedor-contacto {
-  width: 60%;
-}
+  }
+
+  .contenedor-contacto {
+    width: 60%;
+  }
+
+  .titulo-texto-sumate {
+    font-size: 1.875rem;
+  }
 }
 
 @media only screen and (min-width : 1025px) and (max-width : 1121px) {
@@ -736,19 +802,24 @@
       }
     }
   }
+
   .titulo-texto {
     margin-top: 2rem;
   }
+
   .mision-texto {
     margin-top: 1.8rem;
   }
+
   .sumate-texto {
     padding: 1.8rem;
     font-size: .9375rem;
   }
+
   .titulo-texto-sumate {
     font-size: 1.8rem;
   }
+
   .texto-icono {
     font-size: 1.2rem;
   }
@@ -762,12 +833,15 @@
       }
     }
   }
+
   .titulo-texto-sumate {
     font-size: 1.8rem;
   }
+
   .sumate-texto {
     padding: 1.1rem;
   }
+
   .texto-icono {
     font-size: 1.5rem;
   }
@@ -787,15 +861,18 @@
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
+
   /* Styles */
   .texto-nosotros {
     font-size: 1.4rem;
     line-height: unset;
   }
+
   .mision-texto {
     font-size: 1.4rem;
     line-height: unset;
   }
+
   .parrafo-queHacemos {
     font-size: 1.4rem;
     line-height: unset;

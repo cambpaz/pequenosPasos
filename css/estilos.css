@@ -591,7 +591,8 @@ footer {
   padding: 1.0625rem 2.375rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
   border-radius: 2rem;
-  margin-top: 1.5rem; }
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
   .ser-parte-boton .button {
     width: 100%;
     font-family: 'Open Sans';
@@ -630,6 +631,8 @@ footer {
       margin-top: 0.625rem; }
     #navegador ul #nav-donar-button {
       display: none; }
+  .contenedor-sumate {
+    flex-direction: column-reverse; }
   #encabezado-index br,
   #quiero-ser-parte br {
     display: none; }
@@ -692,7 +695,9 @@ footer {
     margin-top: 2rem;
     margin-left: .5rem; }
   .contenedor-mapa p {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .contenedor-sumate {
+    flex-direction: column-reverse; } }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -812,7 +817,9 @@ footer {
   .texto-icono-landing {
     font-size: 0.75rem;
     font-weight: 700;
-    text-align: center; } }
+    text-align: center; }
+  .contenedor-sumate {
+    flex-direction: column-reverse; } }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   #navegador #brand-mobile {
@@ -889,8 +896,13 @@ footer {
     margin-top: 1rem;
     padding: 1rem; }
   .icono img {
-    width: 5rem;
-    height: 5rem; }
+    width: 4rem;
+    height: 4rem; }
+  .contenedor-sumate {
+    flex-direction: column-reverse; }
+  .titulo-texto-sumate {
+    font-size: 1.875rem;
+    margin-top: 2rem; }
   .texto-icono {
     font-size: 1rem; }
   .contenedor-mapa {
@@ -960,8 +972,8 @@ footer {
   .texto-icono {
     font-size: 1.5rem; }
   .icono img {
-    width: 5rem;
-    height: 5rem; }
+    width: 4rem;
+    height: 4rem; }
   .parrafo-queHacemos {
     width: fit-content;
     max-width: 80%;
@@ -1011,7 +1023,9 @@ footer {
     width: 60%;
     margin-top: 2.5rem; }
   .contenedor-contacto {
-    width: 60%; } }
+    width: 60%; }
+  .titulo-texto-sumate {
+    font-size: 1.875rem; } }
 
 @media only screen and (min-width: 1025px) and (max-width: 1121px) {
   #navegador #brand-mobile {
