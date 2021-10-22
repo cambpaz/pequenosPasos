@@ -661,10 +661,28 @@ footer {
     display: none; }
   #talleres #carousel-talleres {
     display: unset; }
+  .contenedor-iconos {
+    flex-direction: column;
+    margin-top: 2rem; }
+  .icono img {
+    height: 4.2rem;
+    width: 4.2rem; }
+  .contenedor-parrafos {
+    flex-direction: column;
+    max-width: 90%; }
+  .parrafo-queHacemos {
+    padding: 0;
+    margin-left: .5rem;
+    margin-top: 1rem; }
+  .texto-icono {
+    font-size: 1.2rem; }
   #postInstagram {
     display: flex;
     justify-content: center;
     align-items: center; }
+  .contenedor-iconos {
+    flex-direction: column;
+    margin-top: 2rem; }
   .posts {
     display: none; }
   .texto-ig {
