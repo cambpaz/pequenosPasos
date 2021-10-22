@@ -93,7 +93,9 @@
     display: block;
     margin: 3.9375rem 0;
   }
-
+  .contenedor-mision {
+    flex-direction: column-reverse;
+  }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -356,7 +358,35 @@
     display: block;
     margin: 3.9375rem 0;
   }
-
+  .contenedor-mision {
+    flex-direction: column-reverse;
+  }
+  .titulo-texto {
+    margin-top: 1rem;
+  }
+  .mision-texto {
+    margin: 3rem 1rem;
+  }
+  .contenedor-parrafos {
+    flex-direction: column;
+  }
+  .parrafo-queHacemos {
+    width: fit-content;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .icono img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .texto-icono {
+    font-size: 1rem;
+  }
+  .contenedor-mapa {
+    width: 60%;
+    margin-top: 2.5rem;
+}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -422,7 +452,16 @@
       }
     }
   }
-
+  .contenedor-mision {
+    flex-direction: column-reverse;
+  }
+  .titulo-texto {
+    margin-top: 2rem;
+  }
+  .mision-texto {
+    margin: 3.5rem;
+    width: 25rem;
+  }
   #talleres {
     .contenedor-grid-talleres {
 
@@ -438,6 +477,19 @@
       }
     }
   }
+  .texto-icono {
+    font-size: 1.5rem;
+  }
+  .icono img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .parrafo-queHacemos {
+    width: fit-content;
+    max-width: 80%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
   .titulo-texto-sumate {
     font-size: 1.8rem;
   }
@@ -448,6 +500,13 @@
     width: 5rem;
     height: 5rem;
   }
+  .contenedor-mapa {
+    width: 60%;
+    margin-top: 2.5rem;
+}
+.contenedor-contacto {
+  width: 60%;
+}
 
 }
 
@@ -485,7 +544,30 @@
       }
     }
   }
-
+  
+  .mision-texto {
+    margin-top: .5rem;
+  }
+  .img-nosotros {
+    height: 100%;
+  }
+  .contenedor-iconos {
+    margin: 0;
+  }
+  .titulo-nosotros {
+    margin-bottom: .9rem;
+  }
+  .icono img {
+    height: 3.75rem;
+    width: 3.75rem;
+  }
+  .texto-icono {
+    font-size: 1rem;
+  }
+  .contenedor-mapa {
+    width: 60%;
+    margin-top: 2.5rem;
+}
 }
 
 @media only screen and (min-width : 1025px) and (max-width : 1121px) {
@@ -522,12 +604,21 @@
       }
     }
   }
+  .titulo-texto {
+    margin-top: 2rem;
+  }
+  .mision-texto {
+    margin-top: 1.8rem;
+  }
   .sumate-texto {
     padding: 1.8rem;
     font-size: .9375rem;
   }
   .titulo-texto-sumate {
     font-size: 1.8rem;
+  }
+  .texto-icono {
+    font-size: 1.2rem;
   }
 }
 
@@ -545,7 +636,9 @@
   .sumate-texto {
     padding: 1.1rem;
   }
-  
+  .texto-icono {
+    font-size: 1.5rem;
+  }
 }
 
 /* Desktops and laptops ----------- */
@@ -563,4 +656,16 @@
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
   /* Styles */
+  .texto-nosotros {
+    font-size: 1.4rem;
+    line-height: unset;
+  }
+  .mision-texto {
+    font-size: 1.4rem;
+    line-height: unset;
+  }
+  .parrafo-queHacemos {
+    font-size: 1.4rem;
+    line-height: unset;
+  }
 }
