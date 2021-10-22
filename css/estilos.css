@@ -667,6 +667,11 @@ footer {
   .icono img {
     height: 4.2rem;
     width: 4.2rem; }
+  .titulo-texto {
+    margin-top: 1.8rem;
+    font-size: 2rem; }
+  .mision-texto {
+    margin-top: .9rem; }
   .contenedor-parrafos {
     flex-direction: column;
     max-width: 90%; }
