@@ -23,6 +23,7 @@
         justify-content: center;
         list-style: none;
         max-width: 90%;
+        list-style-image: url(../assets/img/check-md.svg);
 
         #list-item{
             font-family: 'Open Sans';
@@ -34,7 +35,7 @@
             margin-bottom: 1rem;
 
             &::before{
-                content: '✓';
+                // content: '✓';
                 margin-right: 4px;
             }
         }
