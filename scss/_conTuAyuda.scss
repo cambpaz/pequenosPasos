@@ -31,6 +31,7 @@
             font-style: normal;
             font-weight: bold;
             line-height: 1.5625rem;
+            margin-bottom: 1rem;
 
             &::before{
                 content: '✓';
@@ -38,12 +39,11 @@
             }
         }
     }
+}
+.contenedor-con-ayuda-imagen{
+    padding: 0;
 
-    .contenedor-con-ayuda-imagen{
-        padding: 0;
-
-        .img-con-ayuda {
-            width: 100%;
-        }
+    .img-con-ayuda {
+        width: 100%;
     }
 }
