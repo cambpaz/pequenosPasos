@@ -8,7 +8,7 @@
     "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "Camila Paz - Valentina Tarapow",
+  "author": "UX/UI: Melina Freccero - Developers: Camila Paz, Valentina Tarapow",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
